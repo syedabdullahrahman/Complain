@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#494999"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Police Station"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="0">
+
+        <Button
+            android:id="@+id/details_p"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#0691b8"
+            android:text="Profile Details"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/loguotbt"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#0691b8"
+            android:text="Log Out"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/saved_complain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="#0691b8"
+            android:text="Saved Compain"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Complains"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ListView
+        android:id="@+id/listViewComplains"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

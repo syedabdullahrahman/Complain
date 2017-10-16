@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "593046000553",
+    "firebase_url": "https://complain-dcf8e.firebaseio.com",
+    "project_id": "complain-dcf8e",
+    "storage_bucket": "complain-dcf8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593046000553:android:7b8d7a73c0ff7850",
+        "android_client_info": {
+          "package_name": "com.example.nadia.complain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593046000553-468jl4r1edd0fbq9t26pir3cuas06p12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nadia.complain",
+            "certificate_hash": "21f1f0af81185fbd06c1eca2c4dc797c11107cf2"
+          }
+        },
+        {
+          "client_id": "593046000553-5lc22rqcf0llnevspr4ogohofoefujhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFEEbV-FKruHvuIDr5lsFM7ADRyT8FiQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593046000553-5lc22rqcf0llnevspr4ogohofoefujhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
